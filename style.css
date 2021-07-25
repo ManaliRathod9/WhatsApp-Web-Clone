@@ -1,0 +1,71 @@
+.backside-top {
+    background-color: rgb(0, 150, 136);
+    height: 15vh;
+}
+
+.backside-bottom {
+    background-color: rgb(227, 230, 215);
+    height: 84vh;
+}
+
+.back-emptycontainer {
+    position: relative;
+}
+
+.back-fieldcontainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.back-fieldcontainer1 {
+    position: absolute;
+    top: 21px;
+    right: 0;
+    left: 0;
+}
+
+.chat-top {
+    background-color: rgb(233, 227, 227);
+    min-height: 53px;
+}
+
+.profile-image {
+    height: 40px;
+    width: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+span {
+    float: right;
+}
+
+.contacts {
+    background-color: rgb(250, 250, 250);
+    min-height: 600px;
+}
+
+.contact-table-scroll {
+    overflow-y: scroll;
+    height: 600px;
+}
+
+td {
+    font-size: 22px;
+}
+
+.message-area {
+    background-color: rgb(220, 215, 210);
+    min-height: 600px;
+}
+
+.message-table-scroll {
+    overflow-y: scroll;
+    height: 550px;
+}
+
+.message-box {
+    background-color: rgb(240, 240, 240);
+}

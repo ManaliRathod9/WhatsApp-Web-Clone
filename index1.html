@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>WhatsApp Web</title>
+
+    <!-- Custom CSS-->
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="back-emptycontainer">
+        <!--Empty Container-->
+        <div class="container-fluid back-fieldcontainer">
+            <!-- For Container-->
+            <div class="backside-top"></div>
+            <div class="backside-bottom"></div>
+        </div>
+        <div class="container back-fieldcontainer1">
+            <div class="row chat-top">
+                <div class="col-sm-4" style="
+              border: right;
+              border-width: thin;
+              border-style: solid;
+              border-color: rgb(202, 195, 195);
+            ">
+                    <img src="images/p14.jpg" alt="" class="profile-image rounded-circle mt-3" />
+
+                    <span class="mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2em"
+                height="2em"
+                fill="currentColor"
+                class="bi bi-arrow-repeat"
+                viewbox="0 0 16 16"
+              >
+                <path
+                  d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2em"
+                height="2em"
+                fill="currentColor"
+                class="bi bi-chat-right-text-fill mx-3"
+                viewbox="0 0 16 16"
+              >
+                <path
+                  d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zm0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2em"
+                height="2em"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical mr-2"
+                viewbox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
+            </span>
+                </div>
+
+                <div class="col-sm-8" style="
+              border: right;
+              border-width: thin;
+              border-style: solid;
+              border-color: rgb(202, 195, 195);
+            ">
+                    <img src="images/p7.jpg" alt="" class="profile-image rounded-circle mt-3" />
+                    <i><b style="font-size: 24px"> Manali </b></i>
+
+                    <span class="mt-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.6em"
+                height="1.6em"
+                fill="currentColor"
+                class="bi bi-search"
+                viewbox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2em"
+                height="2em"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical mx-3"
+                viewbox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
+            </span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 contacts">
+                    <!--Table For Chat Section-->
+                    <div class="contact-table-scroll">
+                        <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="images/p7.jpg" alt="" class="profile-image rounded-circle mt-3" />
+                                    </td>
+                                    <td>
+                                        <b><i>Manali</i></b
+                      ><br /><small>Not too Bad.</small>
+                    </td>
+                    <td><small>10:10 PM</small></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p2.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Janvhi</i></b
+                      ><br /><small>Bye, Good Night</small>
+                    </td>
+                    <td><small> 9:45 PM</small></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p13.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Vidhi</i></b
+                      ><br /><small>Same &#128521;</small>
+                    </td>
+                    <td><small>9:45 PM</small></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p10.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Jack</i></b
+                      ><br /><small>What Happen?</small>
+                    </td>
+                    <td><small>Tuesday</small></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p1.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Girls Gang&#128151;</i></b
+                      ><br /><small
+                        >Happy Birthday&#127874;&#127874;Advika</small
+                      >
+                    </td>
+                    <td><small>11.59 PM</small></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p8.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Jaya</i></b
+                      ><br /><small> Good Night</small>
+                    </td>
+                    <td><small>21/07/2021</small></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p3.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Dhriti</i></b
+                      ><br /><small>Good Morning&#127774;&#127774;</small>
+                    </td>
+                    <td><small>10:16 AM</small></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p4.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Ashvini</i></b
+                      ><br /><small>Take care</small>
+                    </td>
+                    <td><small>Friday</small></td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p12.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Shreya</i></b
+                      ><br /><small> What r u planning for today</small>
+                    </td>
+                    <td><small>Sunday</small></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p5.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Eshika</i></b
+                      ><br /><small>Good Afternoon</small>
+                    </td>
+                    <td><small>3:30 PM</small></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p13.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Pihu</i></b
+                      ><br /><small>Bye, Good Night</small>
+                    </td>
+                    <td><small>10:16 PM</small></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p10.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Kiran</i></b
+                      ><br /><small>ohhhhhhhhhhhh</small>
+                    </td>
+                    <td><small>5:45 PM</small></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p9.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Mihika</i></b
+                      ><br /><small>accha ji..</small>
+                    </td>
+                    <td><small>Tuesday</small></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p11.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Nyra</i></b
+                      ><br /><small>U'r coming or not</small>
+                    </td>
+                    <td><small>11:30 AM</small></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p14.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Juliana</i></b
+                      ><br /><small>Good Night</small>
+                    </td>
+                    <td><small>19/07/2021</small></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src="images/p6.jpg"
+                        alt=""
+                        class="profile-image rounded-circle mt-3"
+                      />
+                    </td>
+                    <td>
+                      <b><i>Diana</i></b
+                      ><br /><small>Hello!!</small>
+                    </td>
+                    <td><small>Saturday</small></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="col-sm-8 message-area">
+            <div class="message-table-scroll">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="background-color: white; float: left"
+                      >
+                        <i> Hiiii </i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:05 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="
+                          background-color: rgb(111, 235, 224);
+                          float: right;
+                        "
+                      >
+                        <i> Helloooo </i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:06 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="
+                          background-color: rgb(111, 235, 224);
+                          float: right;
+                        "
+                      >
+                        <i> How are You? </i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:06 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="background-color: white; float: left"
+                      >
+                        <i> I am fine. What About You ? </i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:07 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="
+                          background-color: rgb(111, 235, 224);
+                          float: right;
+                        "
+                      >
+                        <i> I am also good.</i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:08 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="background-color: white; float: left"
+                      >
+                        <i> What Are U doing? </i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:08 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="
+                          background-color: rgb(111, 235, 224);
+                          float: right;
+                        "
+                      >
+                        <i> Watching the Movie And U. </i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:09 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="background-color: white; float: left"
+                      >
+                        <i>
+                          Wow &#129321; &#129321;I am playing the Video Game.
+                        </i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:09 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="
+                          background-color: rgb(111, 235, 224);
+                          float: right;
+                        "
+                      >
+                        <i> ohhhhhhhhhhhhhh</i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:09 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="background-color: white; float: left"
+                      >
+                        <i> How is your preparation for the exam going on.</i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:10 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p
+                        class="mt-2 mr-5 shadow-sm p-2 rounded"
+                        style="
+                          background-color: rgb(111, 235, 224);
+                          float: right;
+                        "
+                      >
+                        <i> Not too bad.</i>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="p-1 mt-2 mr-3 shadow-sm" style="float: right">
+                        <small>10:10 PM</small>
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Message end -->
+            <!-- For Message Box-->
+            <div class="row message-box p-2">
+              <div class="col-sm-3 mt-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  fill="currentColor"
+                  class="bi bi-emoji-smile mx-0.5"
+                  viewbox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                  />
+                  <path
+                    d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  fill="currentColor"
+                  class="bi bi-paperclip"
+                  viewbox="0 0 16 16"
+                >
+                  <path
+                    d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  fill="currentColor"
+                  class="bi bi-cash"
+                  viewbox="0 0 16 16"
+                >
+                  <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+                  <path
+                    d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  fill="currentColor"
+                  class="bi bi-mic mx-1"
+                  viewbox="0 0 16 16"
+                >
+                  <path
+                    d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"
+                  />
+                  <path
+                    d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"
+                  />
+                </svg>
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  fill="currentColor"
+                  class="bi bi-camera"
+                  viewbox="0 0 16 16"
+                >
+                  <path
+                    d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"
+                  />
+                  <path
+                    d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"
+                  />
+                </svg>
+              </div>
+
+              <div class="col-sm-8">
+                <form action="">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Write Message.... "
+                  />
+                </form>
+              </div>
+              <div class="col-sm-1 mt-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  fill="currentColor"
+                  class="bi bi-caret-right-fill"
+                  viewbox="0 0 16 16"
+                >
+                  <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
